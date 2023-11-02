@@ -1,0 +1,58 @@
+body {
+    padding-top: 3.5rem;
+    font-size: 18px;
+    float: left;
+    margin-left: 280px;
+}
+
+nav {
+    background-color: #00447C;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+a:link {
+    color: #00447C;
+}
+
+a:hover {
+    color: DODGERBLUE;
+}
+
+a:visited {
+    color: #00447C;
+}
+
+i.icon-hover-change:hover {
+    color: DODGERBLUE;
+    font-size: 30px;
+}
+
+a.icon-link {
+    text-decoration: none;
+}
+
+img {
+    border: 1px solid grey;
+}
+
+img.img-xiaokai {
+    max-width: 225px
+}
+
+#div-image {
+    float: left;
+    width: 30%;
+    padding-top: 60px;
+    margin-left: -280px;
+}
+
+#div-bio {
+    padding-top: 50px;
+    font-size: 18px
+}

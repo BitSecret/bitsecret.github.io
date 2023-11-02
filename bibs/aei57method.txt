@@ -1,0 +1,11 @@
+@article{aei57method,
+title = {A method for product appearance design evaluation based on heterogeneous data},
+journal = {Advanced Engineering Informatics},
+volume = {57},
+pages = {102089},
+year = {2023},
+issn = {1474-0346},
+doi = {https://doi.org/10.1016/j.aei.2023.102089},
+url = {https://www.sciencedirect.com/science/article/pii/S1474034623002173},
+author = {Han Lai and Zheng Wu and Xiaokai Zhang and Huchang Liao and Edmundas Kazimieras Zavadskas},
+}
