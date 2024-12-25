@@ -29,7 +29,7 @@ function renderNews(page) {
 // 渲染分页导航
 function renderPagination() {
     const totalPages = Math.ceil(allNewsItems.length / newsPerPage);
-    const pagination = document.getElementById('pagination');
+    const pagination = document.getElementById('news-pagination');
     pagination.innerHTML = '';  // 清空之前的分页
 
     // 创建分页按钮

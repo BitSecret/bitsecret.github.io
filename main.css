@@ -57,20 +57,20 @@ img.img-xiaokai {
     font-size: 18px
 }
 
-#pagination {
+.pagination {
     margin-top: 20px;
     text-align: center; /* 居中对齐分页数字 */
     display: flex;
     justify-content: center; /* 确保分页数字居中 */
 }
 
-#pagination a {
+.pagination a {
     margin: 0 5px; /* 为分页数字添加适当的间距 */
     color: #00447C;
     text-decoration: none;
 }
 
-#pagination a.active {
+.pagination a.active {
     font-weight: bold;
     text-decoration: underline;
 }

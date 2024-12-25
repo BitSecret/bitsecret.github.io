@@ -30,7 +30,7 @@
                 <a class="nav-link" href="#Publications">Publications</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#Experience">Experience</a>
+                <a class="nav-link" href="#Academic Journey">Academic Journey</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#Awards">Awards</a>
@@ -77,21 +77,22 @@
                 </p>
                 <p>
                     My research goal is to build an <strong>AI system</strong> to solve <strong>formalized IMO-level
-                    plane geometry problems</strong>. Specifically, the AI system can receive a formal representation
+                    mathematical problems</strong>. Specifically, the AI system can receive a formal representation
                     of the problem, automatically solve the problem, and emit a formal (i.e. machine-checkable) proof.
                     My primary research mainly includes the following aspects:
                 </p>
                 <ul>
                     <li>
-                        <strong>Formal Geometry</strong>, including geometry formalization theory, geometry formal
-                        system, formal geometric problem solver and datasets.
+                        <strong>Formal Mathematics</strong>, including geometry formalization theory and formal
+                        system, formal mathematical problem solver and math problem datasets.
                     </li>
                     <li>
-                        <strong>Automated Reasoning</strong> for joint solution of geometry problem combining algebraic
-                        computation and relational reasoning.
+                        <strong>Automated Reasoning</strong> for joint solution of mathematical problem combining
+                        algebraic computation, relational reasoning and neural network.
                     </li>
                     <li>
-                        <strong>AI for geometry</strong>, including Autoformalization and AI-assisted problem solver.
+                        <strong>AI for Mathematics</strong>, including data-driven auto-formalization and AI-assisted
+                        mathematical problem solver.
                     </li>
                 </ul>
                 <p>
@@ -99,14 +100,16 @@
                 </p>
                 <ul>
                     <li>
-                        <strong>Reinforcement Learning</strong> for geometry problem solving.
+                        <strong>Reinforcement Learning</strong>.
                     </li>
                     <li>
-                        <strong>Graph Neural Network</strong> for geometry knowledge embedding and geometry problem
-                        solving.
+                        <strong>Graph Neural Network</strong>.
                     </li>
                     <li>
-                        <strong>Multimodal reasoning</strong> for geometric problem Vision-Language automated reasoning.
+                        <strong>Information Theory in Artificial Intelligence</strong>.
+                    </li>
+                    <li>
+                        <strong>Multimodal Reasoning</strong>.
                     </li>
                 </ul>
             </div>
@@ -122,15 +125,25 @@
     <hr>
     <ul id="news-container">
         <li>
-            <strong>[Oct 10, 2024]</strong>
+            <strong>[Dec 22, 2024]</strong>
             <strong style="color: red; ">New!</strong>
+            Paper "Diagram Formalization Enhanced Multi-Modal Geometry Problem Solver"
+            is accepted by <a href="https://2025.ieeeicassp.org/" target="_blank">ICASSP 2025</a>.
+        </li>
+        <li>
+            <strong>[Dec 19, 2024]</strong>
+            <strong style="color: red; ">New!</strong>
+            Paper "FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems"
+            is accepted by <a href="https://www.mdpi.com/2073-8994/17/1/8" target="_blank">Symmetry 2024</a>.
+        </li>
+        <li>
+            <strong>[Oct 10, 2024]</strong>
             Paper "Formal Representation and Solution of Plane Geometric Problems"
             is accepted by
             <a href="https://openreview.net/forum?id=8wDSfs1W3w" target="_blank">NeurIPS 2024 Workshop on MATH-AI</a>.
         </li>
         <li>
             <strong>[Sep 6, 2024]</strong>
-            <strong style="color: red; ">New!</strong>
             Paper "Diagram Formalization Enhanced Multi-Modal Geometry Problem Solver" is available at <a
                 href="https://arxiv.org/abs/2409.04214" target="_blank">Preprint</a>.
         </li>
@@ -174,13 +187,38 @@
             Welcome to my website.
         </li>
     </ul>
-    <div id="pagination"></div>
+    <div class="pagination" id="news-pagination"></div>
 </div>
 <br>
 
 <!-- Publications -->
 <div class="container">
     <h3 id="Publications" style="">Publications</h3>
+    <hr>
+
+    <!-- FGeo-Parser -->
+    <div class="row">
+        <div class="paper-image">
+            <img class="img-fluid img-rounded" src="imgs/zhu2024fgeoparser.png" alt="">
+        </div>
+        <div class="col-md-9">
+            <strong> FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems </strong>
+            <br>
+            <em>Na Zhu, <strong>Xiaokai Zhang</strong>, Qike Huang, Fangzhen Zhu, Zhenbing Zeng, Tuo Leng</em>
+            <br>
+            In this paper, we propose an enhanced geometric problem parsing method called FGeo-Parser, which converts
+            problem diagrams and text into the formal language of the FormalGeo. Specifically, diagram parser leverages
+            the BLIP to generate the construction CDL and image CDL, while text parser employs the T5 to produce the
+            text CDL and goal CDL where these neural networks are both based on a symmetric encoder–decoder
+            architecture. It also supports reverse formalization to generate human-like solutions, reflecting the
+            symmetry between parsing and generating.
+            <br>
+            <strong><a href="https://www.mdpi.com/2073-8994/17/1/8" target="_blank">Symmetry 2024&nbsp;</a></strong>
+            <a href="papers/zhu2024fgeoparser.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+            <a href="https://github.com/RuRuo0/GeoParser" target="_blank"> <small>[Project]&nbsp;</small></a>
+            <a href="bibs/zhu2024fgeoparser.bib" target="_blank"> <small>[BibTex]</small></a><br>
+        </div>
+    </div>
     <hr>
 
     <!-- formalgeo7k -->
@@ -201,7 +239,7 @@
                 NeurIPS 2024 Workshop on MATH-AI&nbsp;</a></strong>
             <a href="papers/zhang2024formal.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/FormalGeo/FormalGeo" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024formal.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024formal.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -223,10 +261,10 @@
             formal and natural language captions, designed to enhance the vision encoder for a better understanding of
             geometric structures.
             <br>
-            <strong><a href="https://arxiv.org/abs/2409.04214" target="_blank">arxiv: 2409.04214I&nbsp;</a></strong>
+            <strong><a href="https://arxiv.org/abs/2409.04214" target="_blank">ICASSP 2025&nbsp;</a></strong>
             <a href="papers/zhang2024diagram.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/zezeze97/DFE-GPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024diagram.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024diagram.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -249,7 +287,7 @@
             <strong><a href="https://arxiv.org/abs/2402.11461" target="_blank">arxiv: 2402.11461&nbsp;</a></strong>
             <a href="papers/zhang2024fgeohypergnet.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/HyperGNet" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024fgeohypergnet.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024fgeohypergnet.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -271,7 +309,7 @@
             <strong><a href="https://www.mdpi.com/2073-8994/16/4/437" target="_blank">Symmetry 2024&nbsp;</a></strong>
             <a href="papers/zou2024fgeodrl.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/PersonNoName/FGeoDRL" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zou2024fgeodrl.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zou2024fgeodrl.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -293,7 +331,7 @@
             <strong><a href="https://www.mdpi.com/2073-8994/16/4/421" target="_blank">Symmetry 2024&nbsp;</a></strong>
             <a href="papers/he2024fgeotp.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/748978460/FGeo-TP" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/he2024fgeotp.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/he2024fgeotp.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -316,7 +354,7 @@
             <strong><a href="https://www.mdpi.com/2073-8994/16/4/404" target="_blank">Symmetry 2024&nbsp;</a></strong>
             <a href="papers/zhang2024fgeosss.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024fgeosss.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024fgeosss.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -340,7 +378,7 @@
             <strong><a href="https://arxiv.org/abs/2310.18021" target="_blank">arxiv:2310.18021&nbsp;</a></strong>
             <a href="papers/zhang2024formalgeo.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2024formalgeo.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2024formalgeo.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -363,7 +401,7 @@
                 2023&nbsp;</a></strong>
             <a href="papers/zhang2023method.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
             <a href="https://github.com/BitSecret/DAQQSO" target="_blank"> <small>[Project]&nbsp;</small></a>
-            <a href="bibs/zhang2023method.txt" target="_blank"> <small>[BibTex]</small></a><br>
+            <a href="bibs/zhang2023method.bib" target="_blank"> <small>[BibTex]</small></a><br>
         </div>
     </div>
     <hr>
@@ -371,22 +409,49 @@
 </div>
 <br>
 
-<!-- Experience -->
+<!-- Academic Journey-->
 <div class="container">
-    <h3 id="Experience">Experience</h3>
+    <h3 id="Academic Journey">Academic Journey</h3>
     <hr>
+    <h4>Workshops</h4>
     <ul>
         <li>
-            <strong>Leader</strong> of FormalGeo Development Team, 2022.01 - Present
+            <strong>Co-organizer</strong>,
+            Workshop on <a href="https://euclidesprobationem.github.io/MPMFAI.html" target="_blank">Machine Proof and
+            Mathematical Foundations of Artificial Intelligence</a>,
+            Nov 23, 2024
+            <br>
+        </li>
+    </ul>
+
+    <h4>Organizations</h4>
+    <ul>
+        <li>
+            <strong>Leader</strong>,
+            <a href="https://formalgeo.github.io/" target="_blank">FormalGeo Development Team</a>,
+            2022.01 - Present
+            <br>
+        </li>
+    </ul>
+
+    <h4>Educations</h4>
+    <ul>
+        <li>
+            <strong>PhD student</strong> in Computer Engineering and Science School at,
+            <a href="https://www.shu.edu.cn/" target="_blank">Shanghai University</a>,
+            2024.09 - Present
             <br>
         </li>
         <li>
-            <strong>M.S.</strong> in Computer Science and Technology, Shanghai University, 2021.09 - 2024.06
+            <strong>M.S.</strong> in Computer Science and Technology,
+            <a href="https://www.shu.edu.cn/" target="_blank">Shanghai University</a>,
+            2024.06
             <br>
         </li>
         <li>
-            <strong>B.S.</strong> in Computer Science and Technology, Chongqing Technology and Business University,
-            2017.09 - 2021.06
+            <strong>B.S.</strong> in Computer Science and Technology,
+            <a href="https://www.ctbu.edu.cn/" target="_blank">Chongqing Technology and Business University</a>,
+            2021.06
             <br>
         </li>
     </ul>
@@ -398,11 +463,17 @@
     <h3 id="Awards" style="">Awards</h3>
     <hr>
     <ul>
-        <li><strong>Third Prize in The 20th China Post-Graduate Mathematical Contest in Modeling</strong>, CPMCM
-            Committee, 2023
+        <li><strong>Third Prize in The 21st China Post-Graduate Mathematical Contest in Modeling</strong>,
+            <a href="https://cpipc.acge.org.cn/cw/hp/4" target="_blank">CPMCM Committee</a>,
+            2024
         </li>
-        <li><strong>Third Prize in The 19th China Post-Graduate Mathematical Contest in Modeling</strong>, CPMCM
-            Committee, 2022
+        <li><strong>Third Prize in The 20th China Post-Graduate Mathematical Contest in Modeling</strong>,
+            <a href="https://cpipc.acge.org.cn/cw/hp/4" target="_blank">CPMCM Committee</a>,
+            2023
+        </li>
+        <li><strong>Third Prize in The 19th China Post-Graduate Mathematical Contest in Modeling</strong>,
+            <a href="https://cpipc.acge.org.cn/cw/hp/4" target="_blank">CPMCM Committee</a>,
+            2022
         </li>
     </ul>
 </div>
