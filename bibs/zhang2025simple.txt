@@ -1,0 +1,5 @@
+@misc{zhang2025simple,
+    title = {A Simple Method for Attention Visualization},
+    author = {Zhang, Xiaokai},
+    year = {2025}
+}
