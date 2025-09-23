@@ -1,5 +1,6 @@
 @misc{zhang2025simple,
     title = {A Simple Method for Attention Visualization},
     author = {Zhang, Xiaokai},
-    year = {2025}
+    year = {2025},
+    url = {https://bitsecret.github.io/papers/zhang2025simple.pdf}
 }
