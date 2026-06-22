@@ -68,8 +68,9 @@
                     mainly includes the following aspects:
                 </p>
                 <p>
-                    <strong>1. AI for (Formal) Math</strong>, including formalization theory, formal systems,
-                    reasoning-computation engines, datasets, evaluation metrics, and neural-symbolic solvers, etc.
+                    <strong>1. AI for (Formal) Mathematics</strong>, including mathematical formalization theory,
+                    formal mathematical systems, formal reasoning-computation engines, datasets, evaluation metrics,
+                    and neural-symbolic solvers, etc.
                     <a target="_blank" href="papers/zhang2025fgeohypergnet.pdf">[HyperGNet]</a>
                     <a target="_blank" href="papers/zhang2024formalgeo.pdf">[FormalGeo]</a>
                     <a target="_blank" href="papers/zhang2024fgeosss.pdf">[FGeo-SSS]</a>
@@ -79,10 +80,11 @@
                     <a target="_blank" href="papers/huang2025fgeoeval.pdf">[FGeo-Eval]</a>
                     <a target="_blank" href="papers/hu2026hybrid.pdf">[NSS]</a>
                     <a target="_blank" href="papers/zhang2025diagram.pdf">[DFE-GPS]</a>
+                    <a target="_blank" href="papers/qin2026fgeogcg.pdf">[FGeo-GCG]</a>
                 </p>
                 <p>
                     <strong>2. Iterative Learning Systems</strong>, including expert iteration, reinforcement learning,
-                    evolutionary algorithms, etc.
+                    evolutionary algorithms, continual learning, etc.
                     <a target="_blank" href="papers/zou2024fgeodrl.pdf">[FGeo-DRL]</a>
                     <a target="_blank" href="papers/li2026fgeoisrl.pdf">[FGeo-ISRL]</a>
                 </p>
@@ -103,8 +105,26 @@
     <ul id="news-container" class="ul-content">
         <li>
             <p>
+                <strong>[Jun 17, 2026]</strong>
+                💥Paper "Physics-Enhanced Deep Learning Optimized Semitransparent Organic Photovoltaics for
+                Building-Integrated Sustainable Energy" is accepted by
+                <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.73762" target="_blank">Advanced
+                    Materials 2026</a>.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                <strong>[Jun 15, 2026]</strong>
+                💥Paper "FGeo-GCG: Hybrid Validation-Enhanced Geometric Data Synthesis with Human-like Proof" is
+                accepted by
+                <a href="https://www.mdpi.com/2073-8994/18/6/1035" target="_blank">Symmetry 2026</a>.
+            </p>
+        </li>
+        <li>
+            <p>
                 <strong>[Apr 09, 2026]</strong>
-                💥Paper "FGeo-ISRL: A MCTS-Enhanced Deep Reinforcement Learning System for Plane Geometry Problem-Solving
+                Paper "FGeo-ISRL: A MCTS-Enhanced Deep Reinforcement Learning System for Plane Geometry Problem-Solving
                 via Inverse Search" is accepted by
                 <a href="https://www.mdpi.com/2073-8994/18/4/628" target="_blank">Symmetry 2026</a>.
             </p>
@@ -112,7 +132,7 @@
         <li>
             <p>
                 <strong>[Apr 06, 2026]</strong>
-                💥FormalGeo-beta has been released, supporting auxiliary construction and bidirectional solving (fact
+                FormalGeo-beta has been released, supporting auxiliary construction and bidirectional solving (fact
                 derivation and goal decomposition). For details, please check the
                 <a href="https://github.com/FormalGeo/FormalGeo" target="_blank">FormalGeo GitHub Project</a>.
             </p>
@@ -120,7 +140,7 @@
         <li>
             <p>
                 <strong>[Mar 30, 2026]</strong>
-                💥Paper "A Hybrid Framework for Automated Geometric Problem-Solving by Integrating Formal Symbolic
+                Paper "A Hybrid Framework for Automated Geometric Problem-Solving by Integrating Formal Symbolic
                 Systems and Deep Learning" is accepted by
                 <a href="https://www.mdpi.com/2073-8994/18/4/592" target="_blank">Symmetry 2026</a>.
             </p>
@@ -244,135 +264,67 @@
     <hr>
 
     <ul id="publications-container" class="ul-content">
-        <!-- Attention Visualization -->
+        <!-- PDL -->
         <li>
             <div class="row">
                 <div class="paper-image">
-                    <img class="img-fluid img-rounded" src="imgs/zhang2025simple.png" alt="">
+                    <img class="img-fluid img-rounded" src="imgs/deng2026physics.png" alt="">
                 </div>
                 <div class="col-md-9">
-                    <strong>A Simple Method for Attention Visualization</strong><br>
+                    <p>
+                        <strong>💥Physics-Enhanced Deep Learning Optimized Semitransparent Organic Photovoltaics for
+                            Building-integrated Sustainable Energy</strong><br>
 
-                    <em><strong>Xiaokai Zhang</strong></em><br>
+                        Baozhong Deng†, <strong>Xiaokai Zhang</strong>†, Zhouyi Lu, Zhengnan Lin, Tuo Leng*, Zixuan,
+                        Liu, Ye Dai, Gaëtan Lévêque, Bruno Grandidier*, Furong Zhu, and Tao Xu*<br>
 
-                    This paper formally defines the concepts of intra-token information mixing and inter-token
-                    information mixing, while proposing a visualization analysis method based on attention matrix
-                    forward propagation. The proposed method achieves interpretable analysis of Transformer model
-                    decision-making processes by quantitatively measuring the contribution of different input tokens to
-                    model outputs.<br>
+                        (†Equal Contribution) (*Corresponding authors)<br>
 
-                    <strong><a href="papers/zhang2025simple.pdf" target="_blank">Preprint 2025&nbsp;</a></strong>
-                    <a href="papers/zhang2025simple.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
-                    <a href="https://github.com/BitSecret/SimpleAttnViz" target="_blank"> <small>[Project]&nbsp;</small></a>
-                    <a href="bibs/zhang2025simple.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                        <em>We introduce a physics-enhanced deep learning (PDL) framework that embeds optical physical
+                            priors into neural network, significantly reducing the reliance on extensive experimental
+                            datasets while enhancing predictive accuracy beyond conventional simulation and purely data
+                            driven methods.</em><br>
+
+                        <strong><a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.73762"
+                                   target="_blank">Advanced Materials 2026&nbsp;</a></strong>
+                        <a href="papers/deng2026physics.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                        <a href="https://github.com/BitSecret/PhyOptiNet" target="_blank">
+                            <small>[Project]&nbsp;</small></a>
+                        <a href="bibs/deng2026physics.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                    </p>
                 </div>
             </div>
             <hr>
         </li>
 
-        <!-- FGeo-HyperGNet -->
+        <!-- FGeo-GCG -->
         <li>
             <div class="row">
                 <div class="paper-image">
-                    <img class="img-fluid img-rounded" src="imgs/zhang2025fgeohypergnet.png" alt="">
+                    <img class="img-fluid img-rounded" src="imgs/qin2026fgeogcg.png" alt="">
                 </div>
                 <div class="col-md-9">
-                    <strong>🔥FGeo-HyperGNet: Geometric Problem Solving Integrating FormalGeo Symbolic System and
-                        Hypergraph Neural Network </strong> <br>
+                    <p>
+                        <strong>💥FGeo-GCG: Hybrid Validation-Enhanced Geometric Data Synthesis with Human-like
+                            Proof</strong><br>
 
-                    <em><strong>Xiaokai Zhang</strong>, Yang Li, Na Zhu, Cheng Qin, Zhenbing Zeng, Tuo Leng</em> <br>
+                        Qin Cheng, <strong>Xiaokai Zhang</strong>*, Yuchang Yang, Zhenhai Sun, Yang Li, Zhengyu Hu, Tuo
+                        Leng*<br>
 
-                    We built a neural-symbolic system to automatically perform human-like geometric deductive reasoning.
-                    The symbolic part is a formal system built on FormalGeo and the neural part is a hypergraph neural
-                    network based on the attention mechanism.<br>
+                        (*Corresponding authors)<br>
 
-                    <strong><a href="https://www.ijcai.org/proceedings/2025/527" target="_blank">IJCAI
-                        2025&nbsp;</a></strong>
-                    <a href="papers/zhang2025fgeohypergnet.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
-                    <a href="https://github.com/BitSecret/HyperGNet" target="_blank"> <small>[Project]&nbsp;</small></a>
-                    <a href="bibs/zhang2025fgeohypergnet.txt" target="_blank"> <small>[BibTex]</small></a><br>
-                </div>
-            </div>
-            <hr>
-        </li>
+                        <em>We present FGeo-GCG, a hybrid geometric data synthesis framework built on the FormalGeo-V2
+                            deductive engine. It formulates Geometric Configuration Generation as an incremental linear
+                            construction process that decomposes global constraint satisfaction into local construction
+                            steps, thereby pruning invalid branches during the generation process.</em><br>
 
-        <!-- FormalGeo7K -->
-        <li>
-            <div class="row">
-                <div class="paper-image">
-                    <img class="img-fluid img-rounded" src="imgs/zhang2024formal.png" alt="">
-                </div>
-                <div class="col-md-9">
-                    <strong>🔥Formal Representation and Solution of Plane Geometric Problems</strong><br>
-
-                    <em><strong>Xiaokai Zhang</strong>, Na Zhu, Cheng Qin, Yang Li, Zhenbing Zeng, Tuo Leng</em><br>
-
-                    In this paper, we present formalgeo7k, a geometric problem dataset based on rigorous geometry
-                    formalization theory and consistent geometry formal system, serving as a benchmark for various tasks
-                    such as geometric diagram parsing and geometric problem solving.<br>
-
-                    <strong><a href="https://openreview.net/forum?id=8wDSfs1W3w" target="_blank">
-                        NeurIPS 2024 Workshop on MATH-AI&nbsp;</a></strong>
-                    <a href="papers/zhang2024formal.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
-                    <a href="https://github.com/FormalGeo/FormalGeo" target="_blank"> <small>[Project]&nbsp;</small></a>
-                    <a href="bibs/zhang2024formal.txt" target="_blank"> <small>[BibTex]</small></a><br>
-                </div>
-            </div>
-            <hr>
-        </li>
-
-        <!-- FGeo-SSS -->
-        <li>
-            <div class="row">
-                <div class="paper-image">
-                    <img class="img-fluid img-rounded" src="imgs/zhang2024fgeosss.png" alt="">
-                </div>
-                <div class="col-md-9">
-                    <strong> FGeo-SSS: A Search-Based Symbolic Solver for Human-Like Automated Geometric
-                        Reasoning </strong><br>
-
-                    <em><strong>Xiaokai Zhang</strong>, Na Zhu, Yiming He, Jia Zou, Cheng Qin, Yang Li, Tuo
-                        Leng</em><br>
-
-                    Based on the geometry formalization theory and the FormalGeo geometric formal system, we have
-                    developed the Formal Geometric Problem Solver (FGPS) in Python, which can serve as an interactive
-                    assistant for verifying problem-solving processes and as an automated problem solver that utilizes a
-                    variable search-based method and strategy.<br>
-
-                    <strong><a href="https://www.mdpi.com/2073-8994/16/4/404" target="_blank">Symmetry
-                        2024&nbsp;</a></strong>
-                    <a href="papers/zhang2024fgeosss.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
-                    <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-                    <a href="bibs/zhang2024fgeosss.txt" target="_blank"> <small>[BibTex]</small></a><br>
-                </div>
-            </div>
-            <hr>
-        </li>
-
-        <!-- FormalGeo -->
-        <li>
-            <div class="row">
-                <div class="paper-image">
-                    <img class="img-fluid img-rounded" src="imgs/zhang2024formalgeo.png" alt="">
-                </div>
-                <div class="col-md-9">
-                    <strong>🔥FormalGeo: An Extensible Formalized Framework for Olympiad Geometric Problem
-                        Solving</strong><br>
-
-                    <em><strong>Xiaokai Zhang</strong>, Na Zhu, Yiming He, Jia Zou, Qike Huang, Xiaoxiao Jin, Yanjun
-                        Guo, Chenyang Mao, Zhe Zhu, Dengfeng Yue, Fangzhen Zhu, Yang Li, Yifan Wang, Yiwen Huang, Runan
-                        Wang, Cheng Qin, Zhenbing Zeng, Shaorong Xie, Xiangfeng Luo, Tuo Leng</em><br>
-
-                    We have constructed a complete and compatible formal plane geometry system. This will serve as a
-                    crucial bridge between IMO-level plane geometry challenges and readable AI automated reasoning. With
-                    this formal system in place, we have been able to seamlessly integrate modern AI models with our
-                    formal system.<br>
-
-                    <strong><a href="https://arxiv.org/abs/2310.18021"
-                               target="_blank">arxiv:2310.18021&nbsp;</a></strong>
-                    <a href="papers/zhang2024formalgeo.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
-                    <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
-                    <a href="bibs/zhang2024formalgeo.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                        <strong><a href="https://www.mdpi.com/2073-8994/18/6/1035" target="_blank">
+                            Symmetry 2026&nbsp;</a></strong>
+                        <a href="papers/qin2026fgeogcg.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                        <a href="https://github.com/Vench115/FGeo-GCG" target="_blank">
+                            <small>[Project]&nbsp;</small></a>
+                        <a href="bibs/qin2026fgeogcg.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                    </p>
                 </div>
             </div>
             <hr>
@@ -386,14 +338,16 @@
                 </div>
                 <div class="col-md-9">
                     <p>
-                        <strong>💥FGeo-ISRL: A MCTS-Enhanced Deep Reinforcement Learning System for Plane Geometry
+                        <strong>FGeo-ISRL: A MCTS-Enhanced Deep Reinforcement Learning System for Plane Geometry
                             Problem-Solving via Inverse Search</strong><br>
 
-                        <em>Yang Li, <strong>Xiaokai Zhang</strong>, Qin Cheng, Zhengyu Hu, Tuo Leng</em><br>
+                        Yang Li, <strong>Xiaokai Zhang</strong>, Qin Cheng, Zhengyu Hu, Tuo Leng*<br>
 
-                        To address the efficiency degradation and limited generalization, we propose FGeo-ISRL, a
-                        neural-symbolic inverse search framework whose core is the synergistic integration of a
-                        task-fine-tuned large language model and Monte Carlo Tree Search.<br>
+                        (*Corresponding author)<br>
+
+                        <em>To address the efficiency degradation and limited generalization, we propose FGeo-ISRL, a
+                            neural-symbolic inverse search framework whose core is the synergistic integration of a
+                            task-fine-tuned large language model and Monte Carlo Tree Search.</em><br>
 
                         <strong><a href="https://www.mdpi.com/2073-8994/18/4/628" target="_blank">
                             Symmetry 2026&nbsp;</a></strong>
@@ -415,13 +369,15 @@
                 </div>
                 <div class="col-md-9">
                     <p>
-                        <strong>💥A Hybrid Framework for Automated Geometric Problem-Solving by Integrating Formal
+                        <strong>A Hybrid Framework for Automated Geometric Problem-Solving by Integrating Formal
                             Symbolic Systems and Deep Learning</strong><br>
 
-                        <em>Zhengyu Hu, <strong>Xiaokai Zhang</strong>, Qin Cheng, Yang Li, Tuo Leng</em><br>
+                        Zhengyu Hu, <strong>Xiaokai Zhang</strong>, Qin Cheng, Yang Li, Tuo Leng*<br>
 
-                        To address the limitations of unidirectional approaches, we developed a neuro-symbolic system
-                        that integrates forward and backward reasoning.<br>
+                        (*Corresponding author)<br>
+
+                        <em>To address the limitations of unidirectional approaches, we developed a neuro-symbolic
+                            system that integrates forward and backward reasoning.</em><br>
 
                         <strong><a href="https://www.mdpi.com/2073-8994/18/4/592" target="_blank">
                             Symmetry 2026&nbsp;</a></strong>
@@ -430,6 +386,32 @@
                             <small>[Project]&nbsp;</small></a>
                         <a href="bibs/hu2026hybrid.txt" target="_blank"> <small>[BibTex]</small></a><br>
                     </p>
+                </div>
+            </div>
+            <hr>
+        </li>
+
+        <!-- Attention Visualization -->
+        <li>
+            <div class="row">
+                <div class="paper-image">
+                    <img class="img-fluid img-rounded" src="imgs/zhang2025simple.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <strong>A Simple Method for Attention Visualization</strong><br>
+
+                    <strong>Xiaokai Zhang</strong><br>
+
+                    <em>This paper formally defines the concepts of intra-token information mixing and inter-token
+                        information mixing, while proposing a visualization analysis method based on attention matrix
+                        forward propagation. The proposed method achieves interpretable analysis of Transformer model
+                        decision-making processes by quantitatively measuring the contribution of different input tokens
+                        to model outputs.</em><br>
+
+                    <strong><a href="papers/zhang2025simple.pdf" target="_blank">Preprint 2025&nbsp;</a></strong>
+                    <a href="papers/zhang2025simple.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                    <a href="https://github.com/BitSecret/SimpleAttnViz" target="_blank"> <small>[Project]&nbsp;</small></a>
+                    <a href="bibs/zhang2025simple.txt" target="_blank"> <small>[BibTex]</small></a><br>
                 </div>
             </div>
             <hr>
@@ -444,17 +426,47 @@
                 <div class="col-md-9">
                     <strong>FGeo-Eval: Evaluation System for Plane Geometry Problem Solving</strong><br>
 
-                    <em>Qike Huang, <strong>Xiaokai Zhang</strong>, Na Zhu, Fangzhen Zhu, Tuo Leng</em><br>
+                    Qike Huang, <strong>Xiaokai Zhang</strong>, Na Zhu, Fangzhen Zhu, Tuo Leng*<br>
 
-                    We propose FGeo-Eval, a comprehensive evaluation system for plane geometry problem solving. The
-                    evaluation system includes a problem completion rate (PCR) metric to assess partial progress,
-                    theorem weight computation to quantify knowledge importance, and a difficulty coefficient based on
-                    reasoning complexity.<br>
+                    (*Corresponding author)<br>
+
+                    <em>We propose FGeo-Eval, a comprehensive evaluation system for plane geometry problem solving. The
+                        evaluation system includes a problem completion rate (PCR) metric to assess partial progress,
+                        theorem weight computation to quantify knowledge importance, and a difficulty coefficient based
+                        on reasoning complexity.</em><br>
 
                     <strong><a href="https://www.mdpi.com/2073-8994/17/6/902" target="_blank">Symmetry
                         2025&nbsp;</a></strong>
                     <a href="papers/huang2025fgeoeval.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
                     <a href="bibs/huang2025fgeoeval.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                </div>
+            </div>
+            <hr>
+        </li>
+
+        <!-- FGeo-HyperGNet -->
+        <li>
+            <div class="row">
+                <div class="paper-image">
+                    <img class="img-fluid img-rounded" src="imgs/zhang2025fgeohypergnet.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <strong>🔥FGeo-HyperGNet: Geometric Problem Solving Integrating FormalGeo Symbolic System and
+                        Hypergraph Neural Network </strong> <br>
+
+                    <strong>Xiaokai Zhang</strong>, Yang Li, Na Zhu, Cheng Qin, Zhenbing Zeng, Tuo Leng*<br>
+
+                    (*Corresponding author)<br>
+
+                    <em>We built a neural-symbolic system to automatically perform human-like geometric deductive
+                        reasoning. The symbolic part is a formal system built on FormalGeo and the neural part is a
+                        hypergraph neural network based on the attention mechanism.</em><br>
+
+                    <strong><a href="https://www.ijcai.org/proceedings/2025/527" target="_blank">IJCAI
+                        2025&nbsp;</a></strong>
+                    <a href="papers/zhang2025fgeohypergnet.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                    <a href="https://github.com/BitSecret/HyperGNet" target="_blank"> <small>[Project]&nbsp;</small></a>
+                    <a href="bibs/zhang2025fgeohypergnet.txt" target="_blank"> <small>[BibTex]</small></a><br>
                 </div>
             </div>
             <hr>
@@ -469,14 +481,16 @@
                 <div class="col-md-9">
                     <strong>Diagram Formalization Enhanced Multi-Modal Geometry Problem Solver</strong><br>
 
-                    <em>Zeren Zhang, Jo-Ku Cheng, Jingyang Deng, Lu Tian, Jinwen Ma, Ziran Qin, <strong>Xiaokai
-                        Zhang</strong>, Na Zhu, Tuo Leng</em> <br>
+                    Zeren Zhang†, Jo-Ku Cheng†, Jingyang Deng, Lu Tian, Jinwen Ma*, Ziran Qin, <strong>Xiaokai
+                    Zhang</strong>, Na Zhu, Tuo Leng<br>
 
-                    We introduce the Diagram Formalization Enhanced Geometry Problem Solver (DFE-GPS), a new framework
-                    that integrates visual features, geometric formal language, and natural language representations. We
-                    propose a novel synthetic data approach and create a large-scale geometric dataset, SynthGeo228K,
-                    annotated with both formal and natural language captions, designed to enhance the vision encoder for
-                    a better understanding of geometric structures.<br>
+                    (†Equal Contribution) (*Corresponding author)<br>
+
+                    <em>We introduce the Diagram Formalization Enhanced Geometry Problem Solver (DFE-GPS), a new
+                        framework that integrates visual features, geometric formal language, and natural language
+                        representations. We propose a novel synthetic data approach and create a large-scale geometric
+                        dataset, SynthGeo228K, annotated with both formal and natural language captions, designed to
+                        enhance the vision encoder for a better understanding of geometric structures.</em><br>
 
                     <strong><a href="https://ieeexplore.ieee.org/abstract/document/10889286" target="_blank">ICASSP
                         2025&nbsp;</a></strong>
@@ -497,21 +511,49 @@
                 <div class="col-md-9">
                     <strong> FGeo-Parser: Autoformalization and Solution of Plane Geometric Problems </strong><br>
 
-                    <em>Na Zhu, <strong>Xiaokai Zhang</strong>, Qike Huang, Fangzhen Zhu, Zhenbing Zeng, Tuo
-                        Leng</em><br>
+                    Na Zhu, <strong>Xiaokai Zhang</strong>, Qike Huang, Fangzhen Zhu, Zhenbing Zeng, Tuo Leng*<br>
 
-                    In this paper, we propose an enhanced geometric problem parsing method called FGeo-Parser, which
-                    converts problem diagrams and text into the formal language of the FormalGeo. Specifically, diagram
-                    parser leverages the BLIP to generate the construction CDL and image CDL, while text parser employs
-                    the T5 to produce the text CDL and goal CDL where these neural networks are both based on a
-                    symmetric encoder–decoder architecture. It also supports reverse formalization to generate
-                    human-like solutions, reflecting the symmetry between parsing and generating.<br>
+                    (*Corresponding author)<br>
+
+                    <em>In this paper, we propose an enhanced geometric problem parsing method called FGeo-Parser, which
+                        converts problem diagrams and text into the formal language of the FormalGeo. Specifically,
+                        diagram parser leverages the BLIP to generate the construction CDL and image CDL, while text
+                        parser employs the T5 to produce the text CDL and goal CDL where these neural networks are both
+                        based on a symmetric encoder–decoder architecture. It also supports reverse formalization to
+                        generate human-like solutions, reflecting the symmetry between parsing and generating.</em><br>
 
                     <strong><a href="https://www.mdpi.com/2073-8994/17/1/8" target="_blank">Symmetry
                         2024&nbsp;</a></strong>
                     <a href="papers/zhu2024fgeoparser.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
                     <a href="https://github.com/RuRuo0/GeoParser" target="_blank"> <small>[Project]&nbsp;</small></a>
                     <a href="bibs/zhu2024fgeoparser.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                </div>
+            </div>
+            <hr>
+        </li>
+
+        <!-- FormalGeo7K -->
+        <li>
+            <div class="row">
+                <div class="paper-image">
+                    <img class="img-fluid img-rounded" src="imgs/zhang2024formal.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <strong>🔥Formal Representation and Solution of Plane Geometric Problems</strong><br>
+
+                    <strong>Xiaokai Zhang</strong>, Na Zhu, Cheng Qin, Yang Li, Zhenbing Zeng, Tuo Leng*<br>
+
+                    (*Corresponding author)<br>
+
+                    <em>In this paper, we present FormalGeo7K, a geometric problem dataset based on rigorous geometry
+                        formalization theory and consistent geometry formal system, serving as a benchmark for various
+                        tasks such as geometric diagram parsing and geometric problem solving.</em><br>
+
+                    <strong><a href="https://openreview.net/forum?id=8wDSfs1W3w" target="_blank">
+                        NeurIPS 2024 Workshop on MATH-AI&nbsp;</a></strong>
+                    <a href="papers/zhang2024formal.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                    <a href="https://github.com/FormalGeo/FormalGeo" target="_blank"> <small>[Project]&nbsp;</small></a>
+                    <a href="bibs/zhang2024formal.txt" target="_blank"> <small>[BibTex]</small></a><br>
                 </div>
             </div>
             <hr>
@@ -527,12 +569,14 @@
                     <strong>FGeo-DRL:Deductive Reasoning for Geometric Problems through Deep Reinforcement
                         Learning</strong><br>
 
-                    <em>Jia Zou, <strong>Xiaokai Zhang</strong>, Yiming He, Na Zhu, Tuo Leng</em><br>
+                    Jia Zou, <strong>Xiaokai Zhang</strong>, Yiming He, Na Zhu, Tuo Leng*<br>
 
-                    We built a neural-symbolic system, called FGeoDRL, to automatically perform human-like geometric
-                    deductive reasoning. The neural part is an AI agent based on reinforcement learning and the symbolic
-                    part is a reinforcement learning environment based on geometry formalization theory and
-                    FormalGeo.<br>
+                    (*Corresponding author)<br>
+
+                    <em>We built a neural-symbolic system, called FGeoDRL, to automatically perform human-like geometric
+                        deductive reasoning. The neural part is an AI agent based on reinforcement learning and the
+                        symbolic part is a reinforcement learning environment based on geometry formalization theory and
+                        FormalGeo.</em><br>
 
                     <strong><a href="https://www.mdpi.com/2073-8994/16/4/437" target="_blank">Symmetry
                         2024&nbsp;</a></strong>
@@ -554,18 +598,82 @@
                 <div class="col-md-9">
                     <strong>FGeo-TP: A Language Model-Enhanced Solver for Geometry Problems</strong><br>
 
-                    <em>Yiming He, Jia Zou, <strong>Xiaokai Zhang</strong>, Na Zhu, Tuo Leng</em><br>
+                    Yiming He, Jia Zou, <strong>Xiaokai Zhang</strong>, Na Zhu, Tuo Leng*<br>
 
-                    we introduced FGeo-TP (Theorem Predictor), which utilizes the language model to predict theorem
-                    sequences for solving geometry problems. Our results demonstrate a significant increase in the
-                    problem-solving success rate of the language model-enhanced FGeo-TP on the FormalGeo7k dataset,
-                    rising from 39.7% to 80.86%.<br>
+                    (*Corresponding author)<br>
+
+                    <em>we introduced FGeo-TP (Theorem Predictor), which utilizes the language model to predict theorem
+                        sequences for solving geometry problems. Our results demonstrate a significant increase in the
+                        problem-solving success rate of the language model-enhanced FGeo-TP on the FormalGeo7k dataset,
+                        rising from 39.7% to 80.86%.</em><br>
 
                     <strong><a href="https://www.mdpi.com/2073-8994/16/4/421" target="_blank">Symmetry
                         2024&nbsp;</a></strong>
                     <a href="papers/he2024fgeotp.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
                     <a href="https://github.com/748978460/FGeo-TP" target="_blank"> <small>[Project]&nbsp;</small></a>
                     <a href="bibs/he2024fgeotp.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                </div>
+            </div>
+            <hr>
+        </li>
+
+        <!-- FGeo-SSS -->
+        <li>
+            <div class="row">
+                <div class="paper-image">
+                    <img class="img-fluid img-rounded" src="imgs/zhang2024fgeosss.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <strong> FGeo-SSS: A Search-Based Symbolic Solver for Human-Like Automated Geometric
+                        Reasoning </strong><br>
+
+                    <strong>Xiaokai Zhang</strong>, Na Zhu, Yiming He, Jia Zou, Cheng Qin, Yang Li, Tuo Leng*<br>
+
+                    (*Corresponding author)<br>
+
+                    <em>Based on the geometry formalization theory and the FormalGeo geometric formal system, we have
+                        developed the Formal Geometric Problem Solver (FGPS) in Python, which can serve as an
+                        interactive
+                        assistant for verifying problem-solving processes and as an automated problem solver that
+                        utilizes a
+                        variable search-based method and strategy.</em><br>
+
+                    <strong><a href="https://www.mdpi.com/2073-8994/16/4/404" target="_blank">Symmetry
+                        2024&nbsp;</a></strong>
+                    <a href="papers/zhang2024fgeosss.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                    <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
+                    <a href="bibs/zhang2024fgeosss.txt" target="_blank"> <small>[BibTex]</small></a><br>
+                </div>
+            </div>
+            <hr>
+        </li>
+
+        <!-- FormalGeo -->
+        <li>
+            <div class="row">
+                <div class="paper-image">
+                    <img class="img-fluid img-rounded" src="imgs/zhang2024formalgeo.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <strong>🔥FormalGeo: An Extensible Formalized Framework for Olympiad Geometric Problem
+                        Solving</strong><br>
+
+                    <strong>Xiaokai Zhang</strong>, Na Zhu, Yiming He, Jia Zou, Qike Huang, Xiaoxiao Jin, Yanjun Guo,
+                    Chenyang Mao, Zhe Zhu, Dengfeng Yue, Fangzhen Zhu, Yang Li, Yifan Wang, Yiwen Huang, Runan Wang,
+                    Cheng Qin, Zhenbing Zeng, Shaorong Xie, Xiangfeng Luo, Tuo Leng*<br>
+
+                    (*Corresponding author)<br>
+
+                    <em>We have constructed a complete and compatible formal plane geometry system. This will serve as a
+                        crucial bridge between IMO-level plane geometry challenges and readable AI automated reasoning.
+                        With this formal system in place, we have been able to seamlessly integrate modern AI models
+                        with our formal system.</em><br>
+
+                    <strong><a href="https://arxiv.org/abs/2310.18021"
+                               target="_blank">arxiv:2310.18021&nbsp;</a></strong>
+                    <a href="papers/zhang2024formalgeo.pdf" target="_blank"> <small>[Paper]&nbsp;</small></a>
+                    <a href="https://github.com/BitSecret/FGPS" target="_blank"> <small>[Project]&nbsp;</small></a>
+                    <a href="bibs/zhang2024formalgeo.txt" target="_blank"> <small>[BibTex]</small></a><br>
                 </div>
             </div>
             <hr>
@@ -580,12 +688,14 @@
                 <div class="col-md-9">
                     <strong>A method for product appearance design evaluation based on heterogeneous data</strong><br>
 
-                    <em>Han Lai, Zheng Wu, <strong>Xiaokai Zhang</strong>, Huchang Liao, Edmundas Kazimieras
-                        Zavadskas</em><br>
+                    Han Lai, Zheng Wu†, <strong>Xiaokai Zhang</strong>†, Huchang Liao*, Edmundas Kazimieras
+                    Zavadskas<br>
 
-                    This study proposes different methods to determine subjective and objective weights of criteria
-                    regarding the self-reporting, eye-tracking, and electroencephalogram data for the evaluation of
-                    product appearance design.<br>
+                    (†Equal Contribution) (*Corresponding author)<br>
+
+                    <em>This study proposes different methods to determine subjective and objective weights of criteria
+                        regarding the self-reporting, eye-tracking, and electroencephalogram data for the evaluation of
+                        product design.</em><br>
 
                     <strong><a href="https://www.sciencedirect.com/science/article/abs/pii/S1474034623002173"
                                target="_blank">AEI 2023&nbsp;</a></strong>
@@ -623,6 +733,12 @@
             <strong>Leader</strong>,
             <a href="https://formalgeo.github.io/" target="_blank">FormalGeo Development Team</a>,
             2022.01 - Present
+            <br>
+        </li>
+        <li>
+            <strong>COO</strong>,
+            <a href="http://www.nsmath.cn/" target="_blank">New Star Math Education</a>,
+            2025.09 - Present
             <br>
         </li>
     </ul>

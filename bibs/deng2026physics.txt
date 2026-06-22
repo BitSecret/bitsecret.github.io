@@ -1,0 +1,12 @@
+@article{deng2026physics,
+    author = {Deng, Baozhong and Zhang, Xiaokai and Lu, Zhouyi and Lin, Zhengnan and Leng, Tuo and Liu, Zixuan and Dai, Ye and Lévêque, Gaëtan and Grandidier, Bruno and Zhu, Furong and Xu, Tao},
+    title = {Physics-Enhanced Deep Learning Optimized Semitransparent Organic Photovoltaics for Building-Integrated Sustainable Energy},
+    journal = {Advanced Materials},
+    volume = {n/a},
+    number = {n/a},
+    pages = {e73762},
+    doi = {https://doi.org/10.1002/adma.73762},
+    url = {https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.73762},
+    eprint = {https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adma.73762},
+    abstract = {ABSTRACT Global energy challenges establish building-integrated photovoltaics as a pivotal decarbonization frontier, where semitransparent organic photovoltaics (ST-OPVs) represent a promising technology for simultaneous power generation and daylight transmission. However, their widespread application is constrained by a fundamental efficiency and transparency trade-off governed by complex photon management. Herein, we introduce a physics-enhanced deep learning (PDL) framework that embeds optical physical priors into neural network, significantly reducing the reliance on extensive experimental datasets while enhancing predictive accuracy beyond conventional simulation and purely data driven methods. Building on a novel halogen-additive engineering strategy, that enables opaque devices with a power conversion efficiency exceeding 20\%, our PDL-guided optimal optical design delivers corresponding ST-OPVs with a record light utilization efficiency of 6.09\%. When scaled to large-area manufactured modules, multi-scale building energy modeling demonstrates that the nationwide deployment of such ST-OPVs could meet up to one-fifth of China's total energy demand, highlighting their transformative potential in advancing sustainable energy systems and supporting global carbon neutrality goals.}
+}
